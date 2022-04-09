@@ -1,5 +1,5 @@
 # NFT API
-## Description
+## Description:
 
 *This is my test assignment for the company!*
 
@@ -12,9 +12,28 @@ A Django back-end service that interacts with an ERC-721 standard contract in th
 - Blockchain framework: `Web3.py`
 - Blockchain: `Ethereum (Rinkeby Testnet)`
 
-### Existing virtualenv
+## Docker and Docker-Compose:
 
-First, if your project is already in an existing python virtualenv clone the repository:
+If you want to run my project in docker container, you will need to install it first, all information about it you can find on ***https://hub.docker.com***
+
+After that clone repository and go to the directory project:
+
+    git clone https://github.com/miht-sem/nft-api.git
+
+    cd nft-api
+
+Then use this command in termial to build it in container:
+
+    docker-compose build
+
+And this to run app on `localhost:8000` in your web browser:
+    
+    docker-compose up 
+
+
+### Existing virtualenv:
+
+First, if your project is already in an existing python virtualenv clone the repository and go to the directory project:
 
     git clone https://github.com/miht-sem/nft-api.git
 
@@ -23,12 +42,8 @@ First, if your project is already in an existing python virtualenv clone the rep
 Second, install django by running
 
     pip install django
-    
-And then run the `django-admin` command to start the new project:
-
-    django-admin startproject <project_name>
       
-### No virtualenv
+### No virtualenv:
 
 First clone the repository from Github and switch to the new directory:
 
@@ -55,7 +70,7 @@ I recommend to use `virtualenv` for development:
 
 
 
-## Getting Started
+## Getting Started:
 
 Install project dependencies:
 
@@ -98,7 +113,7 @@ This API output a list of all objects of the Token
 
 This API access the contract in the blockchain and provide information in the response about the current Total supply of the token - the total number of tokens in the network. The response form is arbitrary, in JSON format.
 
-## NFT Token Smart Contract for Integration
+## NFT Token Smart Contract for Integration:
 - Network: `Ethereum Rinkeby Testnet`
 - Blockchain Explorer of the network: ***https://rinkeby.etherscan.io/***
 - Smart contract page: ***https://rinkeby.etherscan.io/address/0x92e098def0ca9577bd50ca61b90b9a46ec1f2040***

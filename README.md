@@ -18,7 +18,7 @@ If you want to run my project in docker container, you will need to install it f
 
 After that clone repository and go to the directory project:
 
-    git clone https://github.com/miht-sem/nft-api.git
+    git clone https://github.com/miht-sem/nft-bridge-api.git
 
     cd nft-api
 
@@ -35,7 +35,7 @@ And this to run app on `localhost:8000` in your web browser:
 
 First, if your project is already in an existing python virtualenv clone the repository and go to the directory project:
 
-    git clone https://github.com/miht-sem/nft-api.git
+    git clone https://github.com/miht-sem/nft-bridge-api.git
 
     cd nft-api
 
@@ -47,7 +47,7 @@ Second, install django by running
 
 First clone the repository from Github and switch to the new directory:
 
-    git clone https://github.com/miht-sem/nft-api.git
+    git clone https://github.com/miht-sem/nft-bridge-api.git
 
     cd nft-api
 
